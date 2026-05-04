@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WhatsApp Business Platform</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'wa-green': '#103928',
+            'wa-lime':  '#43cd66',
+            'wa-light': '#e6ffda',
+            'wa-text':  '#25d366',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="bg-white h-14 flex items-center px-8">
+      <div class="bg-white h-14 flex items-center px-8">
+        <a href="https://www.facebook.com/business">
+        <svg class="h-14 mx-2" viewBox="1000 0 6962.4 3000" xmlns="http://www.w3.org/2000/svg" xml:space="preserve">
+       <g>
+        <path fill="#1c2b33" d="M2821.4 1032.1h188.1l319.8 578.5 319.8-578.5h184v950.6h-153.4v-728.5l-280.4 504.5h-143.9L2975 1254.2v728.5h-153.4v-950.6zM4328 1999.7c-71.1 0-133.5-15.7-187.4-47.2-53.9-31.5-95.9-75-125.9-130.7-30.1-55.7-45.2-119.5-45.2-191.5 0-72.9 14.7-137.4 44.1-193.5 29.4-56.1 70.3-100 122.6-131.7 52.3-31.7 112.4-47.5 180.3-47.5 67.4 0 125.5 16 174.2 47.9 48.7 31.9 86.1 76.6 112.4 134.1 26.2 57.5 39.4 124.9 39.4 202.3v42.1h-520.8c9.5 58 32.9 103.6 70.3 136.8 37.3 33.3 84.5 49.9 141.6 49.9 45.7 0 85.1-6.8 118.1-20.4 33-13.6 64-34.2 93-61.8l81.5 99.8c-81.1 74.3-180.5 111.4-298.2 111.4zm112.1-563.9c-32.1-32.8-74.2-49.2-126.3-49.2-50.7 0-93.1 16.8-127.3 50.2-34.2 33.5-55.8 78.5-64.8 135.1h373.4c-4.6-57.9-22.9-103.3-55-136.1zM4828.5 1400.1h-141.2v-125.6h141.2v-207.8h148v207.8H5191v125.6h-214.6v318.4c0 53 9.1 90.8 27.2 113.4 18.1 22.6 49.1 34 93 33.9 19.5 0 36-.8 49.6-2.4 13.6-1.6 28.5-3.7 44.8-6.5v124.3c-18.6 5.4-37.5 9.5-56.7 12.2-21.9 3.2-44 4.8-66.2 4.8-159.8 0-239.7-87.4-239.7-262.1l.1-336zM5962.4 1982.7h-145.3v-99.1c-25.8 37.1-58.6 65.8-98.4 85.9-39.8 20.1-85.1 30.2-135.8 30.2-62.5 0-117.8-16-166-47.9s-86.1-75.8-113.7-131.7c-27.6-55.9-41.4-119.8-41.4-191.8 0-72.4 14-136.5 42.1-192.2 28.1-55.7 66.9-99.3 116.4-131 49.6-31.7 106.5-47.5 170.8-47.5 48.4 0 91.9 9.4 130.4 28.2 38 18.4 70.8 45.8 95.7 79.8v-91h145.3v708.1zm-148.1-460.3c-15.9-40.3-40.9-72.1-75-95.4-34.2-23.3-73.7-35-118.5-35-63.4 0-113.8 21.3-151.4 63.8-37.6 42.5-56.4 100-56.4 172.5 0 72.9 18.1 130.6 54.3 173.1 36.2 42.6 85.3 63.8 147.3 63.8 45.7 0 86.4-11.8 122.2-35.3 35.8-23.5 61.6-55.2 77.4-95.1l.1-212.4z"></path>
+       </g>
+       <g>
+        <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="1848.577" y1="1486.235" x2="1511.482" y2="1927.946" gradientTransform="matrix(1 0 0 -1 0 2997.89)">
+          <stop offset=".001" stop-color="#0867df"></stop>
+          <stop offset=".454" stop-color="#0668e1"></stop>
+          <stop offset=".859" stop-color="#0064e0"></stop>
+        </linearGradient>
+        <path d="M1432.4 1000h-1.4l-2 163.5h1.4c107.6 0 191 84.8 372.4 390.3l11.1 18.6.7 1.2 101.5-152.3-.7-1.2c-23.9-38.9-46.9-74.6-68.9-107.3-25.5-37.8-49.9-71.6-73.6-101.8-120-152.8-220.4-211-340.5-211z" fill="url(#a)"></path>
+        <linearGradient id="b" gradientUnits="userSpaceOnUse" x1="1192.32" y1="1772.372" x2="1423.42" y2="1947.821" gradientTransform="matrix(1 0 0 -1 0 2997.89)">
+          <stop offset=".132" stop-color="#0064df"></stop>
+          <stop offset=".999" stop-color="#0064e0"></stop>
+        </linearGradient>
+        <path d="M1431 1000c-120.7.6-227.3 78.6-304.4 198-.2.3-.5.7-.7 1.1l141.4 77c.2-.3.5-.7.7-1 45-67.7 101-110.9 161-111.6h1.4l2.1-163.4c-.6-.1-1.1-.1-1.5-.1z" fill="url(#b)"></path>
+        <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="1094.367" y1="1514.907" x2="1187.069" y2="1748.267" gradientTransform="matrix(1 0 0 -1 0 2997.89)">
+          <stop offset=".015" stop-color="#0072ec"></stop>
+          <stop offset=".688" stop-color="#0064df"></stop>
+        </linearGradient>
+        <path d="M1126.6 1198.1c-.2.3-.5.7-.7 1.1-50.6 78.8-88.4 175.5-108.7 279.8-.1.5-.2.9-.3 1.4l158.9 37.5c.1-.5.2-.9.2-1.4 17-91.7 49.3-176.7 91.3-240.3.2-.3.5-.7.7-1l-141.4-77.1z" fill="url(#c)"></path>
+        <path fill="#0082fb" d="M1675.9 1353.4c-95.8 146.9-153.8 239.1-153.8 239.1-127.6 200-171.7 244.8-242.8 244.8-29.6 0-54.4-10.6-73.4-30.7-.3-.3-.6-.7-.9-1l-126.5 109c.3.4.6.7.9 1.1 46.6 54.3 112.3 84.4 193.7 84.4 123.1 0 211.6-58 369-333.1 0 0 65.6-115.8 110.7-195.6-28-45.3-53.4-84.3-76.9-118z"></path>
+        <path fill="#0082fb" d="M2311.6 1107.1c-66.8-67.5-146.4-107.1-231.6-107.1-89.8 0-165.3 49.2-233.4 121.5l-1 1 86.6 77.4c.3-.3.6-.7 1-1 44.9-46.7 88.3-70 136.4-70 51.8 0 100.3 24.4 142.3 67.2l1 1 99.6-89c-.3-.4-.6-.7-.9-1z"></path>
+        <path d="M2504.7 1632.8c-3.7-216.7-79.6-410.4-192.1-524.8l-1-1-99.6 89 1 1c84.7 87 142.7 248.7 148 435.7v1.4h143.7v-1.3z" fill="#0081fa"></path>
+        <path d="M2249 1837.2c-16.4 0-30.8-2.4-45-8.8l-50 157.6c28.1 9.6 58.1 13.9 91.5 13.9 30.8 0 59.1-4.6 84.7-13.5l-48.8-153.9c-10.5 3.3-21.5 4.8-32.4 4.7z" fill="#0279f1"></path>
+       </g>
+       </svg>
+       </a>
+      </div>
+  </div>
+    <div class="bg-wa-green text-white">
+      <div class="max-w-7xl mx-auto px-8 h-20 flex items-center justify-between">
+        <a href="#" class="text-wa-light font-bold text-2xl">WhatsApp Business</a>
+        <nav>
+          <ul class="flex gap-10 text-sm font-medium">
+            <li><a href="#" class="hover:text-wa-lime transition-colors">Products</a></li>
+            <li><a href="#" class="hover:text-wa-lime transition-colors">Resources</a></li>
+            <li><a href="#" class="hover:text-wa-lime transition-colors">Developers</a></li>
+            <li><a href="#" class="hover:text-wa-lime transition-colors">Partners</a></li>
+          </ul>
+        </nav>
+        <div class="flex items-center gap-3">
+          <button class="w-11 h-11 flex items-center justify-center rounded-full border border-wa-lime hover:bg-wa-lime hover:text-wa-green transition-all">
+            🔍
+          </button>
+          <a href="#" class="bg-wa-lime text-wa-green font-semibold px-6 py-3 rounded-full hover:opacity-90 transition-opacity text-sm">
+            Get started
+          </a>
+          <a href="#" class="border border-wa-lime text-white font-semibold px-6 py-3 rounded-full hover:bg-wa-lime hover:text-wa-green transition-all text-sm">
+            Download app
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="bg-wa-green text-white">
+      <div class="max-w-7xl mx-auto px-8 py-24 flex items-center gap-16">
+        <div class="flex-1">
+          <p class="text-wa-light text-sm font-normal mb-6 tracking-widest uppercase">
+            Business Platform
+          </p>
+          <h1 class="text-wa-text text-5xl font-medium leading-tight mb-6">
+            Your business messaging platform for customer engagement
+          </h1>
+          <p class="text-white text-lg leading-relaxed mb-8 max-w-xl">
+            Grow lead generation, conversational commerce, engagement marketing, 
+            and so much more with enterprise-level WhatsApp APIs.
+          </p>
+          <div class="flex items-center gap-5">
+            <a href="#" class="bg-wa-lime text-wa-green font-semibold px-8 py-4 rounded-full hover:opacity-90 transition-opacity">
+              Learn more
+            </a>
+            <a href="#" class="border border-wa-lime text-white font-semibold px-8 py-4 rounded-full hover:bg-wa-lime hover:text-wa-green transition-all">
+              Find a partner
+            </a>
+          </div>
+        </div>
+        <div class="flex-1">
+          <img 
+            src="https://whatsappbusiness.com/wp-content/uploads/2026/03/346314463_546570597643188_8852794017456573121_n.jpg.jpg" 
+            alt="WhatsApp Business Platform"
+            class="w-full h-auto rounded-3xl object-cover"
+          />
+        </div>
+      </div>
+    </div>
+    <section class="bg-white py-24">
+      <div class="max-w-7xl mx-auto px-8">
+        <h2 class="text-wa-green text-4xl font-medium text-center leading-tight mb-16 max-w-2xl mx-auto">
+          Put messaging to work for your business
+        </h2>
+        <div class="grid grid-cols-3 gap-6">
+          <div class="p-10 pb-16 rounded-3xl shadow-[10px_10px_34px_0px_rgba(0,0,0,0.25)]">
+            <h3 class="text-wa-green text-2xl font-bold mb-4 leading-snug">
+              Reach customers almost anywhere
+            </h3>
+            <p class="text-gray-700 text-lg leading-relaxed">
+              Make it easy for people to connect with your business by meeting 
+              them where they already are: on WhatsApp.
+            </p>
+          </div>
+          <div class="p-10 pb-16 rounded-3xl shadow-[10px_10px_34px_0px_rgba(0,0,0,0.25)]">
+            <h3 class="text-wa-green text-2xl font-bold mb-4 leading-snug">
+              Connect through conversations
+            </h3>
+            <p class="text-gray-700 text-lg leading-relaxed">
+              Drive marketing, sales and support outcomes with two-way conversations 
+              that engage across the customer journey.
+            </p>
+          </div>
+          <div class="p-10 pb-16 rounded-3xl shadow-[10px_10px_34px_0px_rgba(0,0,0,0.25)]">
+            <h3 class="text-wa-green text-2xl font-bold mb-4 leading-snug">
+              Create memorable experiences
+            </h3>
+            <p class="text-gray-700 text-lg leading-relaxed">
+              Leverage the API to deliver compelling conversational flows with 
+              interactive CTAs, dynamic product lists, rich media and more.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="bg-white py-16">
+  <div class="max-w-7xl mx-auto px-8">
+    <h2 class="text-wa-green text-4xl font-medium text-center leading-tight mb-20 max-w-3xl mx-auto">
+      Discover common WhatsApp Business Platform use cases that help drive customer and business growth
+    </h2>
+    <div class="flex items-center gap-20 mb-20">
+      <div class="w-3/5">
+        <img 
+          src="https://whatsappbusiness.com/wp-content/uploads/2026/03/346655743_762671188909277_7527314532349347654_n.jpg" 
+          alt="Notifications"
+          class="w-full h-auto rounded-3xl"
+        />
+      </div>
+      <div class="w-2/5 flex flex-col gap-5">
+        <h3 class="text-wa-green text-4xl font-medium leading-tight">
+          Share important updates with customers
+        </h3>
+        <p class="text-wa-lime text-sm font-semibold tracking-widest uppercase">
+          Notifications
+        </p>
+        <ul class="list-disc pl-6 flex flex-col gap-2">
+          <li class="text-gray-700 text-lg leading-relaxed">Send order confirmations and shipment updates</li>
+          <li class="text-gray-700 text-lg leading-relaxed">Share appointment availability and other reminders with your customers</li>
+        </ul>
+        <div>
+          <a href="#" class="inline-block bg-wa-lime text-wa-green font-semibold px-8 py-4 rounded-full hover:opacity-90 transition-opacity">
+            See customer use case
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="flex flex-row-reverse items-center gap-20 mb-20 justify-end">
+      <div class="w-2/5">
+        <img 
+          src="https://whatsappbusiness.com/wp-content/uploads/2026/03/345422581_202580665914685_1689944356770768685_n.jpg.jpeg" 
+          alt="Promotions"
+          class="w-full h-auto rounded-3xl"
+        />
+      </div>
+      <div class="w-2/5 flex flex-col gap-5">
+        <h3 class="text-wa-green text-4xl font-medium leading-tight">
+          Make promotions feel more personal
+        </h3>
+        <p class="text-wa-lime text-sm font-semibold tracking-widest uppercase">
+          Promotions
+        </p>
+        <ul class="list-disc pl-6 flex flex-col gap-2">
+          <li class="text-gray-700 text-lg leading-relaxed">Drive upsell and cross-sell opportunities</li>
+          <li class="text-gray-700 text-lg leading-relaxed">Re-engage after cart abandonment</li>
+          <li class="text-gray-700 text-lg leading-relaxed">Maximize the ROI of your marketing spend with hyper relevant promotions</li>
+        </ul>
+        <div>
+          <a href="#" class="inline-block bg-wa-lime text-wa-green font-semibold px-8 py-4 rounded-full hover:opacity-90 transition-opacity">
+            See customer use case
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ===== ITEM 3 — Image Left, Text Right ===== -->
+    <div class="flex items-center gap-20 mb-20">
+
+      <div class="w-3/5">
+        <img 
+          src="https://whatsappbusiness.com/wp-content/uploads/2026/03/345889583_257345806797082_3801033606903331377_n.jpg.jpeg" 
+          alt="Commerce"
+          class="w-full h-auto rounded-3xl"
+        />
+      </div>
+
+      <div class="w-2/5 flex flex-col gap-5">
+        <h3 class="text-wa-green text-4xl font-medium leading-tight">
+          Build a friction-free buyer journey
+        </h3>
+        <p class="text-wa-lime text-sm font-semibold tracking-widest uppercase">
+          Commerce
+        </p>
+        <ul class="list-disc pl-6 flex flex-col gap-2">
+          <li class="text-gray-700 text-lg leading-relaxed">Make it easy for customers to browse products and place an order, right from within WhatsApp</li>
+        </ul>
+        <div>
+          <a href="#" class="inline-block bg-wa-lime text-wa-green font-semibold px-8 py-4 rounded-full hover:opacity-90 transition-opacity">
+            See customer use case
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="flex flex-row-reverse items-center gap-20 mb-20 justify-end">
+
+      <div class="w-2/5">
+        <img 
+          src="https://whatsappbusiness.com/wp-content/uploads/2026/03/346270806_746137873877285_5090556729195845018_n.jpg.jpeg" 
+          alt="Customer Care"
+          class="w-full h-auto rounded-3xl"
+        />
+      </div>
+
+      <div class="w-2/5 flex flex-col gap-5">
+        <h3 class="text-wa-green text-4xl font-medium leading-tight">
+          Optimize support costs and increase efficiency
+        </h3>
+        <p class="text-wa-lime text-sm font-semibold tracking-widest uppercase">
+          Customer Care
+        </p>
+        <ul class="list-disc pl-6 flex flex-col gap-2">
+          <li class="text-gray-700 text-lg leading-relaxed">Deploy automated conversational flows to mitigate high volume inbound support requests</li>
+          <li class="text-gray-700 text-lg leading-relaxed">Implement smart routing from conversations only when live agent support is needed</li>
+          <li class="text-gray-700 text-lg leading-relaxed">Integrate with popular back-end systems like CRM and marketing automation platforms</li>
+        </ul>
+        <div>
+          <a href="#" class="inline-block bg-wa-lime text-wa-green font-semibold px-8 py-4 rounded-full hover:opacity-90 transition-opacity">
+            See customer use case
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="flex items-center gap-20 mb-20">
+
+      <div class="w-3/5">
+        <img 
+          src="https://whatsappbusiness.com/wp-content/uploads/2026/03/346661812_1398473380887096_3972182033223109742_n.jpg.jpeg" 
+          alt="Verifications"
+          class="w-full h-auto rounded-3xl"
+        />
+      </div>
+
+      <div class="w-2/5 flex flex-col gap-5">
+        <h3 class="text-wa-green text-4xl font-medium leading-tight">
+          Provide account access and password support
+        </h3>
+        <p class="text-wa-lime text-sm font-semibold tracking-widest uppercase">
+          Verifications
+        </p>
+        <ul class="list-disc pl-6 flex flex-col gap-2">
+          <li class="text-gray-700 text-lg leading-relaxed">Enable multi-factor authentication or one-time passwords to verify accounts and users</li>
+        </ul>
+        <div>
+          <a href="#" class="inline-block bg-wa-lime text-wa-green font-semibold px-8 py-4 rounded-full hover:opacity-90 transition-opacity">
+            See customer use case
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="flex flex-row-reverse items-center gap-20 mb-20 justify-end">
+
+      <div class="w-2/5">
+        <img 
+          src="https://whatsappbusiness.com/wp-content/uploads/2026/03/346063803_920294255966917_6391794266729346292_n.jpg.jpeg" 
+          alt="Custom Flows"
+          class="w-full h-auto rounded-3xl"
+        />
+      </div>
+
+      <div class="w-2/5 flex flex-col gap-5">
+        <h3 class="text-wa-green text-4xl font-medium leading-tight">
+          Create your own one-of-a-kind experiences
+        </h3>
+        <p class="text-wa-lime text-sm font-semibold tracking-widest uppercase">
+          Custom Flows
+        </p>
+        <ul class="list-disc pl-6 flex flex-col gap-2">
+          <li class="text-gray-700 text-lg leading-relaxed">Deliver interactive conversational experiences that engage and delight</li>
+        </ul>
+        <div>
+          <a href="#" class="inline-block bg-wa-lime text-wa-green font-semibold px-8 py-4 rounded-full hover:opacity-90 transition-opacity">
+            See customer use case
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<section class="max-w-7xl mx-auto px-8 my-20">
+  <div class="bg-wa-green rounded-3xl py-20 flex flex-col items-center text-center gap-5">
+    
+    <h2 class="text-wa-text text-5xl font-medium leading-tight">
+      Take the next step
+    </h2>
+    
+    <p class="text-white text-lg max-w-lg">
+      WhatsApp Business offers a more personal customer experience so you can run your business better
+    </p>
+    
+    <a href="#" class="bg-wa-lime text-wa-green font-semibold px-8 py-4 rounded-full hover:opacity-90 transition-opacity mt-2">
+      Find a partner
+    </a>
+
+  </div>
+</section>
+  </main>
+<footer class="bg-wa-green text-white">
+  <div class="max-w-7xl mx-auto px-14 py-14">
+    <div class="flex gap-24 items-start">
+      <div class="flex flex-col gap-8 mr-32">
+        <span class="text-wa-light font-bold text-xl">WhatsApp Business</span>
+        <div class="flex gap-4">
+          <a href="#" class="w-12 h-12 flex items-center justify-center rounded-full border border-white hover:bg-wa-lime hover:text-wa-green hover:border-wa-lime transition-all text-sm font-bold">
+            in
+          </a>
+          <a href="#" class="w-12 h-12 flex items-center justify-center rounded-full border border-white hover:bg-wa-lime hover:text-wa-green hover:border-wa-lime transition-all text-sm font-bold">
+            f
+          </a>
+          <a href="#" class="w-12 h-12 flex items-center justify-center rounded-full border border-white hover:bg-wa-lime hover:text-wa-green hover:border-wa-lime transition-all text-sm font-bold">
+            ig
+          </a>
+
+        </div>
+      </div>
+      <div class="flex flex-col gap-3">
+        <h6 class="text-wa-light text-sm font-semibold mb-4">Privacy</h6>
+        <a href="#" class="text-white text-sm hover:text-wa-lime transition-colors">Trust & Safety</a>
+        <a href="#" class="text-white text-sm hover:text-wa-lime transition-colors">Data Policy</a>
+        <a href="#" class="text-white text-sm hover:text-wa-lime transition-colors">Privacy Protections</a>
+        <a href="#" class="text-white text-sm hover:text-wa-lime transition-colors">Terms and Conditions</a>
+        <a href="#" class="text-white text-sm hover:text-wa-lime transition-colors">Business Messaging Policy</a>
+        <a href="#" class="text-white text-sm hover:text-wa-lime transition-colors">Terms and Privacy Policy</a>
+      </div>
+
+      <div class="flex flex-col gap-3">
+        <h6 class="text-wa-light text-sm font-semibold mb-4">Resources</h6>
+        <a href="#" class="text-white text-sm hover:text-wa-lime transition-colors">Blog</a>
+        <a href="#" class="text-white text-sm hover:text-wa-lime transition-colors">FAQ</a>
+        <a href="#" class="text-white text-sm hover:text-wa-lime transition-colors">Help Center</a>
+        <a href="#" class="text-white text-sm hover:text-wa-lime transition-colors">Success Stories</a>
+        <a href="#" class="text-white text-sm hover:text-wa-lime transition-colors">Resource Library</a>
+        <a href="#" class="text-white text-sm hover:text-wa-lime transition-colors">Compliance Center</a>
+        <a href="#" class="text-white text-sm hover:text-wa-lime transition-colors">Ads in Status and Channels</a>
+      </div>
+
+    </div>
+    <hr class="border-white opacity-30 my-14" />
+    <div class="flex items-center justify-between">
+      
+      <p class="text-white text-sm">© 2026 WhatsApp Business</p>
+      <div class="flex items-center gap-2 text-white text-sm cursor-pointer hover:text-wa-lime transition-colors">
+        <svg width="18" height="18" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16.5" cy="16.5" r="15.5" stroke="currentColor" stroke-width="2"/>
+          <path d="M1.4 16.5H31.6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M16.5 1.4V31.6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M16.5 31.9C21.5 31.9 25.6 25 25.6 16.5C25.6 8 21.5 1.1 16.5 1.1C11.5 1.1 7.4 8 7.4 16.5C7.4 25 11.5 31.9 16.5 31.9Z" stroke="currentColor" stroke-width="2"/>
+          <path d="M30.2 9.4C21.3 6.7 11.7 6.7 2.8 9.4" stroke="currentColor" stroke-width="2"/>
+          <path d="M2.8 23.6C11.8 26.3 21.3 26.3 30.3 23.6" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <span>EN</span>
+        <span>▲</span>
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
